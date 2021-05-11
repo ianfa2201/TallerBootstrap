@@ -16,17 +16,7 @@
     align-items: left;
 }
 
-@media (max-width: 768px) {
-    #miniaturas {
-        padding-left: 100px;
-    }
-    .card {
-        margin: 10px;
-    }
-    .navbar-toggler {
-        float: right;
-    }
-}
+
 
 .card {
     float: left;
@@ -37,8 +27,13 @@ li a:hover {
 }
 
 @media (max-width: 574px) {
+    body{
+        padding: 0;
+        margin: 0;
+    }
     .container {
         align-items: center;
+        padding: 0;
     }
     .card {
         width: 150px;
@@ -47,16 +42,28 @@ li a:hover {
     .navbar-toggler {
         float: right;
     }
+
 }
 
 @media (min-width: 575px) and (max-width: 768px) {
+    body{
+        padding: 0;
+        margin: 0;
+    }
     .card {
         width: 150px;
         margin-bottom: 10px;
     }
+    
     #titulo {
-        font-size: 24px;
+        font-size: 2em;
     }
+
+    .navbar-toggler {
+        float: right;
+    }
+
+
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
@@ -68,11 +75,52 @@ li a:hover {
         width: 314px;
     }
     #titulo {
-        font-size: 24px;
+        font-size: 2em;
+    }
+
+    .navbar-nav {
+        float: right;
+        margin: 0;
+    }
+
+    .me-auto{
+        margin: 0 !important;
     }
 }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .navbar-toggler {
+        float: right;
+    }
+    .card {
+        margin: 10px;
+        width: 314px;
+    }
+    #titulo {
+        font-size: 2em;
+    }
+
+    .navbar-nav {
+        float: right;
+        margin: 0;
+        justify-content: right;
+    }
+
+    .navbarColor02{
+        width: 250px;
+    }
+
+    .me-auto{
+        margin: 0 !important;
+    }
+}
+
 
 #pie {
     text-align: center;
     background-color: indigo;
+}
+
+.navbar{
+    clear: right;
 }
