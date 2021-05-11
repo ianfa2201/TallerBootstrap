@@ -4,35 +4,34 @@
 
 <head>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom-diu.css">
     <script src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-
+        <div>
+            <a class="nav-link nav-item active" href="#">
+                <h1 id="titulo">Noticias Internacionales.es</h1>
+                <span class="visually-hidden">(current)</span>
+            </a>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-        <div class="container-fluid">
+        <div class="container-fluid col-sm-3 col-md-3 col-lg-6 col-xl-6">
             <div class="collapse navbar-collapse" id="navbarColor02">
 
                 <ul class="navbar-nav me-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home
-                              <span class="visually-hidden">(current)</span>
-                            </a>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Acerca de</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
+                    <!--li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#">Action</a>
@@ -41,12 +40,92 @@
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Separated link</a>
                         </div>
-                    </li>
+                    </li-->
                 </ul>
 
             </div>
         </div>
     </nav>
+
+    <div class="container" id="primer">
+        <div class="seccionPrincipal col-sm-3 col-md-3 col-lg-6 col-xl-6">
+            <h1>Noticias: </h1>
+        </div>
+    </div>
+
+    <div class="container" id="miniaturas">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <!--miniatura 1 – un div de estos para cada miniatura-->
+                <div class="card col-sm-1 col-md-4 col-lg-4" style="width: 18rem;">
+                    <img class="card-img-top" src="imagen1.jpg" alt="Ministro en el senado">
+                    <div class="card-body">
+                        <h5 class="card-title">Título de la miniatura</h5>
+                        <p class="card-text">Texto de la miniatura.</p>
+                        <a href="noticia1.html" class="btn btn-primary">Leer más...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <!--miniatura 2-->
+                <div class="card col-sm-1 col-md-6 col-lg-4" style="width: 18rem;">
+                    <img class="card-img-top" src="imagen1.jpg" alt="Ministro en el senado">
+                    <div class="card-body">
+                        <h5 class="card-title">Título de la miniatura</h5>
+                        <p class="card-text">Texto de la miniatura.</p>
+                        <a href="noticia1.html" class="btn btn-primary">Leer más...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <!--miniatura 1 – un div de estos para cada miniatura-->
+                <div class="card col-sm-1 col-md-4 col-lg-4" style="width: 18rem;">
+                    <img class="card-img-top" src="imagen1.jpg" alt="Ministro en el senado">
+                    <div class="card-body">
+                        <h5 class="card-title">Título de la miniatura</h5>
+                        <p class="card-text">Texto de la miniatura.</p>
+                        <a href="noticia1.html" class="btn btn-primary">Leer más...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--div>
+            <h2>Mi galería</h2>
+            <p>Texto introductorio a la galería</p>
+            <div class="row">
+                <div class="col-sm-1 col-md-2 col-lg-4">
+                    <miniatura 1 – un div de estos para cada miniatura>
+                    <div class="card col-sm-1 col-md-4 col-lg-4" style="width: 18rem;">
+                        <img class="card-img-top" src="imagen1.jpg" alt="Ministro en el senado">
+                        <div class="card-body">
+                            <h5 class="card-title">Título de la miniatura</h5>
+                            <p class="card-text">Texto de la miniatura.</p>
+                            <a href="noticia1.html" class="btn btn-primary">Leer más...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-1 col-sm-1 col-md-2 col-lg-4">
+                }
+                    <div class="card col-sm-1 col-md-4 col-lg-4" style="width: 18rem;">
+                        <img class="card-img-top" src="imagen1.jpg" alt="Ministro en el senado">
+                        <div class="card-body">
+                            <h5 class="card-title">Título de la miniatura</h5>
+                            <p class="card-text">Texto de la miniatura.</p>
+                            <a href="noticia1.html" class="btn btn-primary">Leer más...</a>
+                        </div>
+                    </div>
+                </div>
+            </div-->
+    </div>
+
+    <div id="pie" class="container-fluid">
+        <p>
+            &copy; Todos&nbsplos&nbspderechos&nbspreservados. Uso&nbspexclusivo&nbspFundación&nbspUniversitaría&nbspKonrad&nbspLorenz.
+        </p>
+    </div>
+
 
 </body>
 

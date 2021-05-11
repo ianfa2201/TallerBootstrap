@@ -1,3 +1,78 @@
 .nuevaSeccion {
     margin-top: 4em;
+    background-color: blue;
+}
+
+#titulo {
+    font-size: 2em;
+}
+
+.navbar-toggler {
+    float: right;
+}
+
+#primer {
+    margin-top: 2em;
+    align-items: left;
+}
+
+@media (max-width: 768px) {
+    #miniaturas {
+        padding-left: 100px;
+    }
+    .card {
+        margin: 10px;
+    }
+    .navbar-toggler {
+        float: right;
+    }
+}
+
+.card {
+    float: left;
+}
+
+li a:hover {
+    background-color: rgb(2, 2, 66);
+}
+
+@media (max-width: 574px) {
+    .container {
+        align-items: center;
+    }
+    .card {
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    .navbar-toggler {
+        float: right;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 768px) {
+    .card {
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    #titulo {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .navbar-toggler {
+        float: right;
+    }
+    .card {
+        margin: 10px;
+        width: 314px;
+    }
+    #titulo {
+        font-size: 24px;
+    }
+}
+
+#pie {
+    text-align: center;
+    background-color: indigo;
 }
