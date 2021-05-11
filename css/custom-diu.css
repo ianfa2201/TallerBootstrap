@@ -95,9 +95,23 @@ li a:hover {
     .card {
         margin: 10px;
         width: 314px;
+        margin-bottom: 20px;
     }
     #titulo {
         font-size: 2em;
+    }
+
+    #slider{
+        position: relative;
+        width: 600px;
+        height: 400px;
+        justify-content: center;
+
+    }
+
+    #slider > div{
+        position: absolute;
+
     }
 
     .navbar-nav {

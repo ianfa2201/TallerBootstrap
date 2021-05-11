@@ -3,10 +3,12 @@
 <html lang="es">
 
 <head>
+    <title>Noticias</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" > 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom-diu.css">
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"> </script>
 </head>
 
 <body>
@@ -54,15 +56,37 @@
         </div>
     </div>
 
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div id="slider">
+                <div><img src="images/Palestina.jpg" alt="Palestina en llamas por enfrentamientos con Israel"></div>
+                <div><img src="images/Covid_india.jpg" alt="India"></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(function(){
+            $('#slider div:gt(0)').hide();
+                setInterval(function(){
+                    $('#slider div:first-child').fadeOut(1000)
+                        .next('div').fadeIn(1000)
+                        .end().appendTo('#slider')
+                }, 3000);
+        })
+    </script>
+      
+
     <div class="container" id="miniaturas">
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-4">
                 <!--miniatura 1 – un div de estos para cada miniatura-->
                 <div class="card col-sm-1 col-md-4 col-lg-4" style="width: 18rem;">
-                    <img class="card-img-top" src="imagen1.jpg" alt="Ministro en el senado">
+                    <img class="card-img-top" src="images/Palestina.jpg" alt="Ministro en el senado">
                     <div class="card-body">
-                        <h5 class="card-title">Título de la miniatura</h5>
-                        <p class="card-text">Texto de la miniatura.</p>
+                        <h5 class="card-title">Nuevas agresiones entre palestinos e israelíes</h5>
+                        <p class="card-text">Al menos 24 palestinos han fallecido, nueve de ellos niños, y hay cientos de heridos. En Israel, un cohete lanzado desde Gaza ha matado a dos mujeres, que se han convertido en sus primeras dos víctimas mortales.</p>
                         <a href="noticia1.html" class="btn btn-primary">Leer más...</a>
                     </div>
                 </div>
@@ -124,7 +148,22 @@
         </p>
     </div-->
 
+    <!--https://www.elespectador.com/noticias/el-mundo/al-menos-20-muertos-y-300-heridos-dejan-nuevas-agresiones-entre-palestinos-e-israelies/
+    
+    
+    
+    -->
 
+    <script type="text/javascript">
+        $(function(){
+            $('#slider div:gt(0)').hide();
+                setInterval(function(){
+                    $('#slider div:first-child').fadeOut(1000)
+                        .next('div').fadeIn(1000)
+                        .end().appendTo('#slider')
+                }, 3000);
+        })
+    </script>
 </body>
 
 
