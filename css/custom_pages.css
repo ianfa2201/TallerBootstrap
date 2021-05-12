@@ -1,37 +1,3 @@
-.nuevaSeccion {
-    margin-top: 4em;
-    background-color: blue;
-}
-
-#titulo {
-    font-size: 2em;
-}
-
-.navbar-toggler {
-    float: right;
-}
-
-#primer {
-    margin-top: 2em;
-    align-items: left;
-}
-
-.card {
-    float: left;
-}
-
-li a {
-    text-align: center;
-}
-
-li a:hover {
-    background-color: rgb(2, 2, 66);
-}
-
-.jumbotron-fluid {
-    background-color: rgb(41, 39, 39);
-}
-
 @media (max-width: 574px)
 /*xs*/
 
@@ -286,17 +252,6 @@ li a:hover {
     .card-img-top {
         height: 286px;
     }
-    #botones {
-        margin: 0;
-        padding: 0;
-        float: right;
-        justify-content: space-between;
-    }
-}
-
-#pie {
-    text-align: center;
-    background-color: indigo;
 }
 
 .navbar {
