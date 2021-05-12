@@ -20,27 +20,56 @@
     float: left;
 }
 
+li a{
+    text-align: center;
+}
+
 li a:hover {
     background-color: rgb(2, 2, 66);
 }
 
-@media (max-width: 574px) {
+.jumbotron-fluid{
+    background-color: rgb(41, 39, 39);
+}
+
+@media (max-width: 574px) /*xs*/{
     body {
         padding: 0;
         margin: 0;
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
     }
     .container {
         align-items: center;
         padding: 0;
         width: 100%;
         justify-content: center;
-        margin-left: 50px;
+        margin-left: 30px;
     }
     #titulo{
         font-size: 1em;
     }
+    #slider {
+        position: relative;
+        width: 10em;
+        height: 10em;
+        justify-content: center;
+        background-color: rgb(41, 39, 39);
+        
+    }
+    #slider>div {
+        position: absolute;
+        margin: 20px 14px;
+    }
+    
+    .images{    
+        width: 14em;
+        height: 7.5em;
+    }
     .card {
-        width: 18rem;
+        width: 12rem;
         margin-bottom: 10px;
     }
     .navbar-toggler {
@@ -48,14 +77,15 @@ li a:hover {
     }
     #miniaturas {
         margin-left: 50px;
-        padding-left: 60px;
+       /* padding-left: 60px;*/
+       width: 100%;
     }
     .card-img-top {
         height: 286px;
     }
 }
 
-@media (min-width: 575px) and (max-width: 768px) {
+@media (min-width: 575px) and (max-width: 768px) /*sm*/ {
     body {
         padding: 0;
         margin: 0;
@@ -70,6 +100,24 @@ li a:hover {
     #titulo {
         font-size: 2em;
     }
+    #slider {
+        position: relative;
+        width: 30em;
+        height: 20em;
+        justify-content: center;
+        background-color: rgb(41, 39, 39);
+        margin-bottom: 25px;
+        
+    }
+    #slider>div {
+        position: absolute;
+        margin: 20px;
+    }
+
+    .images{
+        width: 27em;
+        height: 18em;
+    }
     .navbar-toggler {
         float: right;
     }
@@ -82,16 +130,33 @@ li a:hover {
     }
 }
 
-@media (min-width: 769px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) /*md*/ {
     .navbar-toggler {
         float: right;
     }
     .card {
-        margin: 10px;
-        width: 18rem;
+        margin: 25px 20px;
+        width: 22rem;
     }
     #titulo {
         font-size: 2em;
+    }
+    #slider {
+        position: relative;
+        width: 40em;
+        height: 30em;
+        justify-content: center;
+        background-color: rgb(41, 39, 39);
+        
+    }
+    #slider>div {
+        position: absolute;
+        margin: 30px;
+    }
+    
+    .images{
+        width: 38.2em;
+        height: 26.5em;
     }
     .navbar-nav {
         float: right;
@@ -101,20 +166,23 @@ li a:hover {
         margin: 0 !important;
     }
     #ultimo {
-        padding-left: 200px;
+        padding-left: 180px;
+    }
+    #ultimo > div{
+        width: 25em;
     }
     .card-img-top {
         height: 286px;
     }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1200px) /*lg*/ {
     .navbar-toggler {
         float: right;
     }
     .card {
         margin: 10px;
-        width: 400px;
+        width: 18em;
         margin-bottom: 20px;
     }
     #titulo {
@@ -122,12 +190,20 @@ li a:hover {
     }
     #slider {
         position: relative;
-        width: 600px;
-        height: 400px;
+        width: 67em;
+        height: 30em;
         justify-content: center;
+        background-color: rgb(41, 39, 39);
+        
     }
     #slider>div {
         position: absolute;
+        margin: 30px;
+    }
+    
+    .images{
+        width: 49em;
+        height: 26.5em;
     }
     .navbar-nav {
         float: right;
@@ -140,15 +216,19 @@ li a:hover {
     .me-auto {
         margin: 0 !important;
     }
-    .abajo {
-        padding-left: 40px;
+
+    .abajo{
+        padding-left: 2.5em;
+    }
+    .abajo >.card {
+        width: 25em;
     }
     .card-img-top {
         height: 286px;
     }
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 1201px) /*xl*/ {
     .navbar-toggler {
         float: right;
     }
@@ -162,12 +242,20 @@ li a:hover {
     }
     #slider {
         position: relative;
-        width: 600px;
-        height: 400px;
+        width: 67em;
+        height: 30em;
         justify-content: center;
+        background-color: rgb(41, 39, 39);
+        
     }
     #slider>div {
         position: absolute;
+        margin: 30px 140px;
+    }
+    
+    .images{
+        width: 49em;
+        height: 26.5em;
     }
     .navbar-nav {
         float: right;
@@ -187,6 +275,8 @@ li a:hover {
     .card-img-top {
         height: 286px;
     }
+
+    
 }
 
 #pie {

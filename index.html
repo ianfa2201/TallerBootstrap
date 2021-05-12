@@ -14,9 +14,9 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-lg-12">
         <div>
-            <a class="nav-link nav-item active" href="#">
+            <a class="nav-link nav-item active col-lg-6" href="#">
                 <h1 id="titulo">Noticias&nbspInternacionales.es</h1>
                 <span class="visually-hidden">(current)</span>
             </a>
@@ -24,15 +24,15 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-        <div class="container-fluid col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <div class="collapse navbar-collapse" id="navbarColor02">
+        <div class="container col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <div class="collapse navbar-collapse col-lg-12" id="navbarColor02">
 
-                <ul class="navbar-nav me-auto col-md-12 col-lg-12 ">
+                <ul class="navbar-nav me-auto col-md-6 col-lg-6 ">
 
-                    <li class="nav-item">
+                    <li class="nav-item col-lg-6">
                         <a class="nav-link" href="#">Inicio</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item col-lg-6">
                         <a class="nav-link" href="#">Acerca de</a>
                     </li>
                     <!--li class="nav-item dropdown">
@@ -57,33 +57,27 @@
         </div>
     </div>
 
-    <!--div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <div id="slider">
-                <div><img src="images/Palestina.jpg" alt="Palestina en llamas por enfrentamientos con Israel"></div>
-                <div><img src="images/Covid_india.jpg" alt="India"></div>
-                <div></div>
+                <div><img src="images/Palestina.jpg" class="images" alt="Palestina en llamas por enfrentamientos con Israel"></div>
+                <div><img src="images/Covid_india.jpg" class="images" alt="India"></div>
+                <div><img src="images/Myanmar.jpg" class="images" alt="Hombre sosteniendo la bandera de Liga Nacional para la Democracia (LND) en Myannar"></div>
+                <div><img src="images/Tiroteo_rusia.jpg" class="images" alt="India"></div>
+                <div><img src="images/Putin_Jinping.jpeg" class="images" alt="India"></div>
+
             </div>
         </div>
     </div>
 
-    <script type="text/javascript">
-        $(function() {
-            $('#slider div:gt(0)').hide();
-            setInterval(function() {
-                $('#slider div:first-child').fadeOut(5000)
-                    .next('div').fadeIn(3000)
-                    .end().appendTo('#slider')
-            }, 5000);
-        })
-    </script-->
+
 
 
     <div class="container" id="miniaturas">
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-4">
                 <!--miniatura 1 – un div de estos para cada miniatura-->
-                <div class="card col-sm-1 col-md-4 col-lg-4" style="width: 18rem;">
+                <div class="card col-sm-1 col-md-4 col-lg-4" >
                     <img class="card-img-top" src="images/Palestina.jpg" alt="Ministro en el senado">
                     <div class="card-body">
                         <h5 class="card-title">Nuevas agresiones entre palestinos e israelíes</h5>
@@ -94,7 +88,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4">
                 <!--miniatura 2-->
-                <div class="card col-sm-1 col-md-4 col-lg-4" style="width: 18rem;">
+                <div class="card col-sm-1 col-md-4 col-lg-4">
                     <img class="card-img-top" src="images/Covid_india.jpg" alt="Ministro en el senado">
                     <div class="card-body">
                         <h5 class="card-title">Nuevas agresiones entre palestinos e israelíes</h5>
@@ -105,8 +99,8 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4">
                 <!--miniatura 1 – un div de estos para cada miniatura-->
-                <div class="card col-sm-1 col-md-4 col-lg-4" style="width: 18rem;">
-                    <img class="card-img-top" src="images/Palestina.jpg" alt="Ministro en el senado">
+                <div class="card col-sm-1 col-md-4 col-lg-4" >
+                    <img class="card-img-top" src="images/Myanmar.jpg" alt="Ministro en el senado">
                     <div class="card-body">
                         <h5 class="card-title">Nuevas agresiones entre palestinos e israelíes</h5>
                         <p class="card-text">Al menos 24 palestinos han fallecido, nueve de ellos niños, y hay cientos de heridos. En Israel, un cohete lanzado desde Gaza ha matado a dos mujeres, que se han convertido en sus primeras dos víctimas mortales.</p>
@@ -118,7 +112,7 @@
             <div class="col-sm-12 col-md-6 col-lg-6 abajo">
                 <!--miniatura 1 – un div de estos para cada miniatura-->
                 <div class="card col-sm-1 col-md-6 col-lg-6">
-                    <img class="card-img-top" src="images/Palestina.jpg" alt="Ministro en el senado">
+                    <img class="card-img-top" src="images/Tiroteo_rusia.jpg" alt="Ministro en el senado">
                     <div class="card-body">
                         <h5 class="card-title">Nuevas agresiones entre palestinos e israelíes</h5>
                         <p class="card-text">Al menos 24 palestinos han fallecido, nueve de ellos niños, y hay cientos de heridos. En Israel, un cohete lanzado desde Gaza ha matado a dos mujeres, que se han convertido en sus primeras dos víctimas mortales.</p>
@@ -128,8 +122,8 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 abajo" id="ultimo">
                 <!--miniatura 2-->
-                <div class="card col-sm-1 col-md-12 col-lg-6">
-                    <img class="card-img-top" src="images/Palestina.jpg" alt="Ministro en el senado">
+                <div class="card col-sm-1 col-md-12 col-lg-6" id="lol">
+                    <img class="card-img-top" src="images/Putin_Jinping.jpeg" alt="Ministro en el senado">
                     <div class="card-body">
                         <h5 class="card-title">Nuevas agresiones entre palestinos e israelíes</h5>
                         <p class="card-text">Al menos 24 palestinos han fallecido, nueve de ellos niños, y hay cientos de heridos. En Israel, un cohete lanzado desde Gaza ha matado a dos mujeres, que se han convertido en sus primeras dos víctimas mortales.</p>
@@ -146,8 +140,9 @@
     </div-->
 
     <!--https://www.elespectador.com/noticias/el-mundo/al-menos-20-muertos-y-300-heridos-dejan-nuevas-agresiones-entre-palestinos-e-israelies/
-    
-    
+    https://www.france24.com/es/asia-pac%C3%ADfico/20210512-myanmar-golpe-junta-militar-protestas
+    https://www.vanguardia.com/mundo/video-al-menos-ocho-muertos-entre-ellos-siete-ninos-en-tiroteo-en-escuela-rusa-DX3752577
+    https://cnnespanol.cnn.com/2021/05/12/analisis-china-rusia-vacuna-mundo-desarrollo-occidente-trax/
     
     -->
 
@@ -158,7 +153,7 @@
                 $('#slider div:first-child').fadeOut(1000)
                     .next('div').fadeIn(1000)
                     .end().appendTo('#slider')
-            }, 3000);
+            }, 5000);
         })
     </script>
 </body>
