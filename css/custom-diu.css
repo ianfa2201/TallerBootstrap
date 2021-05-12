@@ -16,8 +16,6 @@
     align-items: left;
 }
 
-
-
 .card {
     float: left;
 }
@@ -27,43 +25,58 @@ li a:hover {
 }
 
 @media (max-width: 574px) {
-    body{
+    body {
         padding: 0;
         margin: 0;
     }
     .container {
         align-items: center;
         padding: 0;
+        width: 100%;
+        justify-content: center;
+        margin-left: 50px;
     }
     .card {
-        width: 150px;
+        width: 18rem;
         margin-bottom: 10px;
     }
     .navbar-toggler {
         float: right;
     }
-
+    #miniaturas {
+        margin-left: 50px;
+        padding-left: 60px;
+    }
+    .card-img-top {
+        height: 286px;
+    }
 }
 
 @media (min-width: 575px) and (max-width: 768px) {
-    body{
+    body {
         padding: 0;
         margin: 0;
     }
     .card {
-        width: 150px;
+        width: 18rem;
         margin-bottom: 10px;
     }
-    
+    .container {
+        margin-left: 50px;
+    }
     #titulo {
         font-size: 2em;
     }
-
     .navbar-toggler {
         float: right;
     }
-
-
+    #miniaturas {
+        margin-left: 50px;
+        padding-left: 60px;
+    }
+    .card-img-top {
+        height: 286px;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
@@ -72,19 +85,23 @@ li a:hover {
     }
     .card {
         margin: 10px;
-        width: 314px;
+        width: 18rem;
     }
     #titulo {
         font-size: 2em;
     }
-
     .navbar-nav {
         float: right;
         margin: 0;
     }
-
-    .me-auto{
+    .me-auto {
         margin: 0 !important;
+    }
+    #ultimo {
+        padding-left: 200px;
+    }
+    .card-img-top {
+        height: 286px;
     }
 }
 
@@ -94,47 +111,86 @@ li a:hover {
     }
     .card {
         margin: 10px;
-        width: 314px;
+        width: 400px;
         margin-bottom: 20px;
     }
     #titulo {
         font-size: 2em;
     }
-
-    #slider{
+    #slider {
         position: relative;
         width: 600px;
         height: 400px;
         justify-content: center;
-
     }
-
-    #slider > div{
+    #slider>div {
         position: absolute;
-
     }
-
     .navbar-nav {
         float: right;
         margin: 0;
         justify-content: right;
     }
-
-    .navbarColor02{
+    .navbarColor02 {
         width: 250px;
     }
-
-    .me-auto{
+    .me-auto {
         margin: 0 !important;
+    }
+    .abajo {
+        padding-left: 40px;
+    }
+    .card-img-top {
+        height: 286px;
     }
 }
 
+@media (min-width: 1201px) {
+    .navbar-toggler {
+        float: right;
+    }
+    .card {
+        margin: 10px;
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    #titulo {
+        font-size: 2em;
+    }
+    #slider {
+        position: relative;
+        width: 600px;
+        height: 400px;
+        justify-content: center;
+    }
+    #slider>div {
+        position: absolute;
+    }
+    .navbar-nav {
+        float: right;
+        margin: 0;
+        justify-content: right;
+    }
+    .navbarColor02 {
+        width: 250px;
+    }
+    .me-auto {
+        margin: 0 !important;
+    }
+    .abajo {
+        width: 500px;
+        padding-left: 70px;
+    }
+    .card-img-top {
+        height: 286px;
+    }
+}
 
 #pie {
     text-align: center;
     background-color: indigo;
 }
 
-.navbar{
+.navbar {
     clear: right;
 }
