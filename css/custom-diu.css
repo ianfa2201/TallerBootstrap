@@ -36,6 +36,9 @@ li a:hover {
         justify-content: center;
         margin-left: 50px;
     }
+    #titulo{
+        font-size: 1em;
+    }
     .card {
         width: 18rem;
         margin-bottom: 10px;
