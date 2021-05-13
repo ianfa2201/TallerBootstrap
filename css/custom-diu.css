@@ -68,6 +68,12 @@ li a:hover {
     }
     #titulo {
         font-size: 1em;
+        margin-bottom: 0px;
+    }
+    #logo{
+        width: 10px;
+        height: 30px;
+        vertical-align: top !important; 
     }
     #slider {
         position: relative;
@@ -104,6 +110,12 @@ li a:hover {
     .card-img-top {
         height: 286px;
     }
+    #contenedortitle{
+        justify-content: left;
+    }
+    .nav-link{
+        padding: 0;
+    }
 }
 
 @media (min-width: 575px) and (max-width: 768px)
@@ -122,12 +134,13 @@ li a:hover {
         margin-left: 50px;
     }
     #titulo {
+        padding-top: 0.2em;
         font-size: 2em;
     }
     #slider {
         position: relative;
         width: 30em;
-        height: 20em;
+        height: 25em;
         justify-content: center;
         background-color: rgb(41, 39, 39);
         margin-bottom: 25px;
@@ -144,8 +157,9 @@ li a:hover {
         float: right;
     }
     #miniaturas {
-        margin-left: 50px;
-        padding-left: 60px;
+        width: 90%;
+        margin-left: 30px;
+        padding-left: 5em;
     }
     .card-img-top {
         height: 286px;
@@ -182,7 +196,7 @@ li a:hover {
     }
     #slider>div {
         position: absolute;
-        margin: 30px;
+        margin: 1em 3em;
     }
     .images {
         width: 38.2em;
@@ -228,17 +242,18 @@ li a:hover {
     }
     #slider {
         position: relative;
-        width: 67em;
-        height: 30em;
+        width: 50em;
+        height: 32em;
         justify-content: center;
         background-color: rgb(41, 39, 39);
     }
     #slider>div {
         position: absolute;
-        margin: 30px;
+        max-width: 67em;
+        margin: 20px 3.8em;
     }
     .images {
-        width: 49em;
+        width: 52em;
         height: 26.5em;
     }
     .navbar-nav {
@@ -278,7 +293,7 @@ li a:hover {
     }
     .card {
         margin: 10px;
-        width: 22em;
+        width: 25em;
         margin-bottom: 20px;
     }
     #titulo {
