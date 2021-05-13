@@ -4,7 +4,7 @@
 }
 
 #titulo {
-    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
 }
 
 .navbar-toggler {
@@ -34,7 +34,7 @@ li a:hover {
     background-color: rgb(41, 39, 39);
 }
 
-@media (max-width: 574px)
+@media (max-width: 575px)
 /*xs*/
 
 {
@@ -72,7 +72,7 @@ li a:hover {
     #slider {
         position: relative;
         width: 10em;
-        height: 20em;
+        height: 22em;
         justify-content: center;
         background-color: rgb(41, 39, 39);
         margin-top: 0;
@@ -334,4 +334,8 @@ li a:hover {
 }
 .textimage{
     color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+#contenedortitle{
+    margin: 0;
 }
