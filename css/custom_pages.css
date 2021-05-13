@@ -32,35 +32,8 @@
     #titulo {
         font-size: 1em;
     }
-    #slider {
-        position: relative;
-        width: 10em;
-        height: 10em;
-        justify-content: center;
-        background-color: rgb(41, 39, 39);
-    }
-    #slider>div {
-        position: absolute;
-        margin: 20px 14px;
-    }
-    .images {
-        width: 14em;
-        height: 7.5em;
-    }
-    .card {
-        width: 18rem;
-        margin-bottom: 10px;
-    }
     .navbar-toggler {
         float: right;
-    }
-    #miniaturas {
-        padding-left: 20px;
-        width: 100%;
-        margin: 0;
-    }
-    .card-img-top {
-        height: 286px;
     }
 }
 
@@ -72,41 +45,14 @@
         padding: 0;
         margin: 0;
     }
-    .card {
-        width: 18rem;
-        margin-bottom: 10px;
-    }
     .container {
         margin-left: 50px;
     }
     #titulo {
         font-size: 2em;
     }
-    #slider {
-        position: relative;
-        width: 30em;
-        height: 20em;
-        justify-content: center;
-        background-color: rgb(41, 39, 39);
-        margin-bottom: 25px;
-    }
-    #slider>div {
-        position: absolute;
-        margin: 20px;
-    }
-    .images {
-        width: 27em;
-        height: 18em;
-    }
     .navbar-toggler {
         float: right;
-    }
-    #miniaturas {
-        margin-left: 50px;
-        padding-left: 60px;
-    }
-    .card-img-top {
-        height: 286px;
     }
 }
 
@@ -117,43 +63,15 @@
     .navbar-toggler {
         float: right;
     }
-    .card {
-        margin: 25px 20px;
-        width: 22rem;
-    }
     #titulo {
         font-size: 2em;
-    }
-    #slider {
-        position: relative;
-        width: 40em;
-        height: 30em;
-        justify-content: center;
-        background-color: rgb(41, 39, 39);
-    }
-    #slider>div {
-        position: absolute;
-        margin: 30px;
-    }
-    .images {
-        width: 38.2em;
-        height: 26.5em;
     }
     .navbar-nav {
         float: right;
         margin: 0;
     }
-    .me-auto {
-        margin: 0 !important;
-    }
-    #ultimo {
-        padding-left: 180px;
-    }
-    #ultimo>div {
-        width: 25em;
-    }
-    .card-img-top {
-        height: 286px;
+    .row {
+        background-color: crimson;
     }
 }
 
@@ -172,40 +90,13 @@
     #titulo {
         font-size: 2em;
     }
-    #slider {
-        position: relative;
-        width: 67em;
-        height: 30em;
-        justify-content: center;
-        background-color: rgb(41, 39, 39);
-    }
-    #slider>div {
-        position: absolute;
-        margin: 30px;
-    }
-    .images {
-        width: 49em;
-        height: 26.5em;
-    }
     .navbar-nav {
         float: right;
         margin: 0;
         justify-content: right;
     }
-    .navbarColor02 {
-        width: 250px;
-    }
-    .me-auto {
-        margin: 0 !important;
-    }
-    .abajo {
-        padding-left: 2.5em;
-    }
-    .abajo>.card {
-        width: 25em;
-    }
-    .card-img-top {
-        height: 286px;
+    .row {
+        background-color: crimson;
     }
 }
 
@@ -216,48 +107,47 @@
     .navbar-toggler {
         float: right;
     }
-    .card {
-        margin: 10px;
-        width: 22em;
-        margin-bottom: 20px;
-    }
     #titulo {
         font-size: 2em;
-    }
-    #slider {
-        position: relative;
-        width: 67em;
-        height: 30em;
-        justify-content: center;
-        background-color: rgb(41, 39, 39);
-    }
-    #slider>div {
-        position: absolute;
-        margin: 30px 140px;
-    }
-    .images {
-        width: 49em;
-        height: 26.5em;
     }
     .navbar-nav {
         float: right;
         margin: 0;
         justify-content: right;
     }
-    .navbarColor02 {
-        width: 250px;
-    }
-    .me-auto {
-        margin: 0 !important;
-    }
-    .abajo {
-        padding-left: 70px;
-    }
-    .card-img-top {
-        height: 286px;
-    }
+    /*.row {
+        background-color: crimson;
+    }*/
 }
 
 .navbar {
     justify-content: space-between;
+}
+
+#principal {
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-color: rgb(230, 225, 225);
+}
+
+.conimag {
+    padding: 0 3em;
+}
+
+img {
+    width: 53em;
+    height: 30em;
+}
+
+.titulos {
+    margin-left: 1em;
+}
+
+.titulos h1 {
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div p {
+    font-size: 1em;
 }
