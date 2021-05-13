@@ -52,6 +52,10 @@ li a:hover {
         margin: 0;
         float: left;
     }
+    #primer {
+        margin-left: 1em;
+        margin-top: 1em;
+    }
     .container {
         align-items: center;
         padding: 0;
@@ -65,28 +69,31 @@ li a:hover {
     #slider {
         position: relative;
         width: 10em;
-        height: 10em;
+        height: 20em;
         justify-content: center;
         background-color: rgb(41, 39, 39);
+        margin-bottom: 2em;
+        margin: 2em 2em;
     }
     #slider>div {
         position: absolute;
+        justify-content: center;
         margin: 20px 14px;
     }
     .images {
-        width: 14em;
-        height: 7.5em;
+        width: 20.5em;
+        height: 18em;
     }
     .card {
-        width: 18rem;
-        margin-bottom: 10px;
+        width: 20rem;
+        margin-bottom: 2em;
     }
     .navbar-toggler {
         float: right;
     }
     #miniaturas {
-        padding-left: 20px;
-        width: 100%;
+        padding-left: 2em;
+        width: 90%;
         margin: 0;
     }
     .card-img-top {
