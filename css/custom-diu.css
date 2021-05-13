@@ -12,7 +12,9 @@
 }
 
 #primer {
-    margin-top: 2em;
+    padding: 1em;
+    margin-top: 3em;
+    margin-bottom: 0;
     align-items: left;
 }
 
@@ -51,6 +53,7 @@ li a:hover {
         padding: 0;
         margin: 0;
         float: left;
+        width: 85%;
     }
     #primer {
         margin-left: 1em;
@@ -72,21 +75,23 @@ li a:hover {
         height: 20em;
         justify-content: center;
         background-color: rgb(41, 39, 39);
+        margin-top: 0;
         margin-bottom: 2em;
-        margin: 2em 2em;
+        margin-left: 1.5em;
     }
     #slider>div {
         position: absolute;
         justify-content: center;
-        margin: 20px 14px;
+        margin: .5em 14px;
     }
     .images {
-        width: 20.5em;
-        height: 18em;
+        width: 18em;
+        height: 17em;
     }
     .card {
-        width: 20rem;
+        width: 17.5rem;
         margin-bottom: 2em;
+        max-height: 35em;
     }
     .navbar-toggler {
         float: right;
@@ -145,6 +150,13 @@ li a:hover {
     .card-img-top {
         height: 286px;
     }
+    #botones{
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px)
@@ -179,6 +191,7 @@ li a:hover {
     .navbar-nav {
         float: right;
         margin: 0;
+        justify-content: right;
     }
     .me-auto {
         margin: 0 !important;
@@ -192,6 +205,10 @@ li a:hover {
     .card-img-top {
         height: 286px;
     }
+    .navbar {
+        justify-content: space-between;
+    }
+    
 }
 
 @media (min-width: 992px) and (max-width: 1200px)
@@ -243,6 +260,12 @@ li a:hover {
     }
     .card-img-top {
         height: 286px;
+    }
+    #botones {
+        margin: 0;
+        padding: 0;
+        float: right;
+        justify-content: space-between;
     }
 }
 
@@ -308,4 +331,7 @@ li a:hover {
 
 .navbar {
     justify-content: space-between;
+}
+.textimage{
+    color: whitesmoke;
 }

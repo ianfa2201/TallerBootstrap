@@ -35,6 +35,7 @@
     .navbar-toggler {
         float: right;
     }
+    
 }
 
 @media (min-width: 575px) and (max-width: 768px)
@@ -150,4 +151,15 @@ img {
 
 div p {
     font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#inicial{
+    font-size: 2em;
+    font-weight: bold;
+    height: 2em;
+}
+
+#texto{
+    margin: 1em 2.3em;
 }
