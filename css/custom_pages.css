@@ -2,13 +2,22 @@
     justify-content: space-between;
 }
 
+#titulo {
+    font-family: 'Dancing Script', cursive;
+}
+
+li a {
+    text-align: center;
+}
+
+li a:hover {
+    background-color: rgb(2, 2, 66);
+}
+
 @media (max-width: 574px)
 /*xs*/
 
 {
-    * {
-        margin: 0;
-    }
     body {
         padding: 0;
         margin: 0;
@@ -16,26 +25,49 @@
     }
     .navbar {
         width: 100%;
+        justify-content: center;
     }
     .row {
         padding: 0;
-        margin: 0;
+        margin: 2em;
         float: left;
+        width: 80%;
     }
     .container {
         align-items: center;
         padding: 0;
         margin: 0;
-        width: 100%;
         justify-content: center;
-    }
-    #titulo {
-        font-size: 1em;
     }
     .navbar-toggler {
         float: right;
     }
-    
+    .titulos {
+        margin: 0;
+        padding: 0;
+    }
+    .titulos h1 {
+        font-size: 2em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    img {
+        width: 100%;
+        height: 12em;
+    }
+    #texto {
+        width: 90%;
+        font-size: 20px;
+        margin: 0 1em;
+    }
+    #botones {
+        margin: 0;
+        padding: 0;
+        float: right;
+        justify-content: space-between;
+    }
+    #titulo {
+        font-size: 1.5em;
+    }
 }
 
 @media (min-width: 575px) and (max-width: 768px)
@@ -45,15 +77,52 @@
     body {
         padding: 0;
         margin: 0;
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+        justify-content: center;
+    }
+    .row {
+        padding: 0;
+        margin: 2em 4em;
+        float: left;
+        width: 80%;
     }
     .container {
-        margin-left: 50px;
-    }
-    #titulo {
-        font-size: 2em;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
     }
     .navbar-toggler {
         float: right;
+    }
+    .titulos {
+        margin: 0;
+        padding: 0;
+    }
+    .titulos h1 {
+        font-size: 2.5em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    img {
+        width: 100%;
+        height: 20em;
+    }
+    #texto {
+        width: 90%;
+        font-size: 20px;
+        margin: 0 1em;
+    }
+    #botones {
+        margin: 0;
+        padding: 0;
+        float: right;
+        justify-content: space-between;
+    }
+    #titulo {
+        font-size: 2em;
     }
 }
 
@@ -61,18 +130,55 @@
 /*md*/
 
 {
+    body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+        justify-content: center;
+    }
+    .row {
+        padding: 0;
+        margin: 2em 6em;
+        float: left;
+        width: 80%;
+    }
+    .container {
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
     .navbar-toggler {
         float: right;
     }
+    .titulos {
+        margin: 0;
+        padding: 0;
+    }
+    .titulos h1 {
+        font-size: 2.5em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    img {
+        width: 100%;
+        height: 30em;
+    }
+    #texto {
+        width: 90%;
+        font-size: 20px;
+        margin: 0 1em;
+    }
+    #botones {
+        margin: 0;
+        padding: 0;
+        float: right;
+        justify-content: space-between;
+    }
     #titulo {
         font-size: 2em;
-    }
-    .navbar-nav {
-        float: right;
-        margin: 0;
-    }
-    .row {
-        background-color: crimson;
     }
 }
 
@@ -80,24 +186,55 @@
 /*lg*/
 
 {
+    body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+        justify-content: center;
+    }
+    .row {
+        padding: 0;
+        margin: 2em 10em;
+        float: left;
+        width: 80%;
+    }
+    .container {
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
     .navbar-toggler {
         float: right;
     }
-    .card {
-        margin: 10px;
-        width: 18em;
-        margin-bottom: 20px;
+    .titulos {
+        margin: 0;
+        padding: 0;
+    }
+    .titulos h1 {
+        font-size: 2.5em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    img {
+        width: 100%;
+        height: 30em;
+    }
+    #texto {
+        width: 90%;
+        font-size: 20px;
+        margin: 0 1em;
+    }
+    #botones {
+        margin: 0;
+        padding: 0;
+        float: right;
+        justify-content: space-between;
     }
     #titulo {
         font-size: 2em;
-    }
-    .navbar-nav {
-        float: right;
-        margin: 0;
-        justify-content: right;
-    }
-    .row {
-        background-color: crimson;
     }
 }
 
@@ -105,20 +242,56 @@
 /*xl*/
 
 {
+    body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+        justify-content: center;
+    }
+    .row {
+        padding: 0;
+        margin: 2em 10em;
+        float: left;
+        width: 80%;
+    }
+    .container {
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
     .navbar-toggler {
         float: right;
+    }
+    .titulos {
+        margin: 0;
+        padding: 0;
+    }
+    .titulos h1 {
+        font-size: 3em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    img {
+        width: 100%;
+        height: 30em;
+    }
+    #texto {
+        width: 90%;
+        font-size: 20px;
+        margin: 0 1em;
+    }
+    #botones {
+        margin: 0;
+        padding: 0;
+        float: right;
+        justify-content: space-between;
     }
     #titulo {
         font-size: 2em;
     }
-    .navbar-nav {
-        float: right;
-        margin: 0;
-        justify-content: right;
-    }
-    /*.row {
-        background-color: crimson;
-    }*/
 }
 
 .navbar {
@@ -131,22 +304,8 @@
     border-color: rgb(230, 225, 225);
 }
 
-.conimag {
-    padding: 0 3em;
-}
-
-img {
-    width: 53em;
-    height: 30em;
-}
-
 .titulos {
     margin-left: 1em;
-}
-
-.titulos h1 {
-    font-size: 4em;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 div p {
@@ -154,12 +313,18 @@ div p {
     font-family: 'Times New Roman', Times, serif;
 }
 
-#inicial{
+#inicial {
     font-size: 2em;
     font-weight: bold;
     height: 2em;
 }
 
-#texto{
-    margin: 1em 2.3em;
+#enlaces a {
+    text-decoration: none;
+    color: black;
+}
+
+#enlaces a:hover {
+    color: whitesmoke;
+    background-color: gray;
 }

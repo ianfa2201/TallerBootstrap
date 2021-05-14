@@ -34,91 +34,62 @@ li a:hover {
     background-color: rgb(41, 39, 39);
 }
 
-@media (max-width: 575px)
+@media (max-width: 576px)
 /*xs*/
 
 {
-    * {
-        margin: 0;
-    }
     body {
         padding: 0;
         margin: 0;
-        width: 100%;
     }
-    .navbar {
-        width: 100%;
-    }
-    .row {
-        padding: 0;
-        margin: 0;
-        float: left;
-        width: 85%;
-    }
-    #primer {
-        margin-left: 1em;
-        margin-top: 1em;
+    .card {
+        width: 20em;
     }
     .container {
+        padding: 0 2em;
+        width: 100%;
+    }
+    #titulo {
+        padding-top: 0.2em;
+        font-size: 1.5em;
+    }
+    #slider {
+        position: relative;
+        width: 20em;
+        height: 20em;
+        justify-content: center;
+        background-color: rgb(41, 39, 39);
+        margin-bottom: 2em;
+    }
+    #slider>div {
+        position: absolute;
+        margin: 1em 2em;
+    }
+    #slider>div>a,
+    #slider>div>a:hover {
+        text-decoration: none;
+        color: black;
+    }
+    .images {
+        width: 15em;
+        height: 12em;
+    }
+    #miniaturas {
+        margin: 0;
+    }
+    .card-img-top {
+        height: 286px;
+    }
+    #botones {
         align-items: center;
         padding: 0;
         margin: 0;
         width: 100%;
         justify-content: center;
     }
-    #titulo {
-        font-size: 1em;
-        margin-bottom: 0px;
-    }
-    #logo{
-        width: 10px;
-        height: 30px;
-        vertical-align: top !important; 
-    }
-    #slider {
-        position: relative;
-        width: 10em;
-        height: 22em;
-        justify-content: center;
-        background-color: rgb(41, 39, 39);
-        margin-top: 0;
-        margin-bottom: 2em;
-        margin-left: 1.5em;
-    }
-    #slider>div {
-        position: absolute;
-        justify-content: center;
-        margin: .5em 14px;
-    }
-    .images {
-        width: 18em;
-        height: 17em;
-    }
-    .card {
-        width: 17.5rem;
-        margin-bottom: 2em;
-        max-height: 35em;
-    }
-    .navbar-toggler {
-        float: right;
-    }
-    #miniaturas {
-        padding-left: 2em;
-        width: 90%;
-        margin: 0;
-    }
-    .card-img-top {
-        height: 286px;
-    }
-    #contenedortitle{
-        justify-content: left;
-    }
-    .nav-link{
-        padding: 0;
-    }
 }
 
-@media (min-width: 575px) and (max-width: 768px)
+@media (min-width: 576px) and (max-width: 768px)
 /*sm*/
 
 {
@@ -127,44 +98,48 @@ li a:hover {
         margin: 0;
     }
     .card {
-        width: 22rem;
-        margin-bottom: 10px;
+        width: 25em;
+        margin: 2em 4em;
     }
     .container {
-        margin-left: 50px;
+        padding: 0 1.5em;
+        width: 100%;
     }
     #titulo {
         padding-top: 0.2em;
-        font-size: 2em;
+        font-size: 1.5em;
     }
     #slider {
         position: relative;
-        width: 30em;
-        height: 25em;
+        width: 20em;
+        height: 28em;
         justify-content: center;
         background-color: rgb(41, 39, 39);
-        margin-bottom: 25px;
+        margin-bottom: 2em;
     }
     #slider>div {
         position: absolute;
-        margin: 20px;
+        margin: 1em 3em;
+    }
+    #slider>div>a,
+    #slider>div>a:hover {
+        text-decoration: none;
+        color: black;
     }
     .images {
         width: 27em;
-        height: 18em;
+        height: 23em;
     }
     .navbar-toggler {
         float: right;
     }
     #miniaturas {
-        width: 90%;
-        margin-left: 30px;
-        padding-left: 5em;
+        margin: 0;
     }
     .card-img-top {
         height: 286px;
     }
-    #botones{
+    #botones {
         align-items: center;
         padding: 0;
         margin: 0;
@@ -177,14 +152,22 @@ li a:hover {
 /*md*/
 
 {
-    .navbar-toggler {
-        float: right;
+    body {
+        padding: 0;
+        margin: 0;
     }
     .card {
-        margin: 25px 20px;
-        width: 22rem;
+        width: 20em;
+        max-width: 24em;
+        height: 36em;
+        margin: 2em 4em;
+    }
+    .container {
+        padding: 0 2em;
+        width: 100%;
     }
     #titulo {
+        padding-top: 0.2em;
         font-size: 2em;
     }
     #slider {
@@ -193,36 +176,41 @@ li a:hover {
         height: 30em;
         justify-content: center;
         background-color: rgb(41, 39, 39);
+        margin-bottom: 2em;
     }
     #slider>div {
         position: absolute;
         margin: 1em 3em;
     }
+    #slider>div>a,
+    #slider>div>a:hover {
+        text-decoration: none;
+        color: black;
+    }
     .images {
-        width: 38.2em;
-        height: 26.5em;
+        width: 38em;
+        height: 23em;
     }
-    .navbar-nav {
+    .navbar-toggler {
         float: right;
+    }
+    #miniaturas {
         margin: 0;
-        justify-content: right;
-    }
-    .me-auto {
-        margin: 0 !important;
-    }
-    #ultimo {
-        padding-left: 180px;
-    }
-    #ultimo>div {
-        width: 25em;
     }
     .card-img-top {
-        height: 286px;
+        height: 15em;
     }
-    .navbar {
-        justify-content: space-between;
+    #botones {
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        justify-content: center;
     }
-    
+    #ultimo {
+        margin-left: 10em;
+        width: 22em;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px)
@@ -252,6 +240,11 @@ li a:hover {
         max-width: 67em;
         margin: 20px 3.8em;
     }
+    #slider>div>a,
+    #slider>div>a:hover {
+        text-decoration: none;
+        color: black;
+    }
     .images {
         width: 52em;
         height: 26.5em;
@@ -268,10 +261,8 @@ li a:hover {
         margin: 0 !important;
     }
     .abajo {
-        padding-left: 2.5em;
-    }
-    .abajo>.card {
-        width: 25em;
+        margin: 0 4em;
+        width: 22em;
     }
     .card-img-top {
         height: 286px;
@@ -293,7 +284,8 @@ li a:hover {
     }
     .card {
         margin: 10px;
-        width: 25em;
+        width: 23em;
+        height: 36em;
         margin-bottom: 20px;
     }
     #titulo {
@@ -302,13 +294,18 @@ li a:hover {
     #slider {
         position: relative;
         width: 67em;
-        height: 30em;
+        height: 35em;
         justify-content: center;
         background-color: rgb(41, 39, 39);
     }
     #slider>div {
         position: absolute;
         margin: 30px 140px;
+    }
+    #slider>div>a,
+    #slider>div>a:hover {
+        text-decoration: none;
+        color: black;
     }
     .images {
         width: 49em;
@@ -326,10 +323,11 @@ li a:hover {
         margin: 0 !important;
     }
     .abajo {
-        padding-left: 70px;
+        margin: 0 4em;
+        width: 28em;
     }
     .card-img-top {
-        height: 286px;
+        height: 20em;
     }
     #botones {
         margin: 0;
@@ -347,10 +345,12 @@ li a:hover {
 .navbar {
     justify-content: space-between;
 }
-.textimage{
+
+.textimage {
     color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
 }
-#contenedortitle{
+
+#contenedortitle {
     margin: 0;
 }
